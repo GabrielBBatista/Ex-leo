@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+ 
+    <style>
+        body {
+            width: 1000px;
+            margin: auto;
+        }
+ 
+        head figure,
+        header h1 {
+            text-align: center;
+        }
+ 
+        header h1 {
+            background-color: #000;
+            color: #fff;
+            border-bottom: solid #c4d6a8 9px;
+            margin-top: -17px;
+        }
+ 
+        nav {
+            float: left;
+        }
+ 
+        nav ul {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        nav ul li {
+            list-style: none;
+            border-top: solid thin;
+            width: 150px;
+            padding: 10px;
+            font-weight: bold;
+        }
+ 
+        nav ul li:nth-last-child(5) {
+            border-bottom: solid thin;
+        }
+ 
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+        }
+ 
+        main {
+            width: 620px;
+            float: left;
+            margin-left: 25px;
+            margin-right: 25px;
+            text-align: justify;
+        }
+ 
+        main img {
+            float: left;
+            padding-right: 20px;
+            padding-bottom: 20px;
+        }
+ 
+        main h1 {
+            border-bottom: solid #000;
+            margin-bottom: 0;
+            margin-top: 0;
+ 
+        }
+ 
+        main h2 {
+            margin-top: 0;
+            text-align: right;
+            font-size: 0.75em;
+        }
+ 
+        aside {
+            width: 150px;
+            float: right;
+        }
+ 
+        footer {
+            background-color: #000;
+            float: right;
+ 
+        }
+ 
+        footer p {
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-top: solid #c4d6a8;
+        }
+ 
+        aside article h2 {
+            border-bottom: solid thin #c4d6a8;
+            margin-bottom: 0;
+        }
+ 
+        .horario {
+            margin-top: 0;
+            text-align: right;
+            color: #c4d6a8;
+ 
+        }
+ 
+        link {
+            color: #900;
+ 
+        }
+    </style>
+</head>
+ 
+<body>
+    <header>
+        <!--figure une todas as imagems em uma só figura(agrupa elas)-->
+        <figure>
+            <img src="vista1.JPG" alt="vita1">
+            <img src="vista4.JPG" alt="vista2">
+            <img src="vista5.JPG" alt="vista3">
+            <img src="vista2.JPG" alt="vista4">
+            <img src="vista3.JPG" alt="vista5">
+        </figure>
+        <h1>Portal da floresta</h1>
+    </header>
+    <nav>
+        <li><a href="link1.html" target="_self">link1</li>
+        <li><a href="link2.html" target="_self">link2</a></li>
+        <li><a href="link3.html" target="_self">link3</a></li>
+        <li><a href="link4.html" target="_self">link4</a></li>
+        <li><a href="link5.html" target="_self">link5</a></li>
+    </nav>
+    <main>
+        <h1>Titulo Principal</h1>
+        <h2>Autor e data</h2>
+        <p>texto aleatóriosuperdesinteressanteuefhhwoghuiggyufyiffyukttfyufyugyugyufu
+            yu8tiutuyygigyoouguigfyutiijhugig8oijiuig</p>
+        <p><img src="ex2 img/escada.jpg" alt="detalhe interno">texto
+            aleatóriosuperdesinteressanteuefhhwoghuiggyufyiffyukttfyufyugyugyufu
+            yu8tiutuyygigyoouguigfyutiijhugig8oijiuig
+            yityurytdfcghvyid6hvfgdtfyvgcufyghugfyuvgfubhuf7uhjgkyuru8hinjlgaleatóri
+            osuperdesinteressanteuefhhwoghuiggyufyiffyukttfyufyugyugyufu
+            yu8tiutuyygigyoouguigfyutiijhugig8oijiuig
+            yityurytdfcghvyid6hvfgdtfyvgcufyghugfyuvgfubhuf7uhjgkyuru8hinjlg
+        </p>
+    </main>
+    <!--aside "braço direito" do main(suporte)-->
+    <aside><!--article é um conteúdo independente-->
+        <article>
+            <h2>notícia1</h2>
+            <p class="horario">00h00 / 01.01</p>
+            <p>texto aleatóriosuperdesinteressanteuefhhwoghuigg
+                yufyiffyukttfyufyugyugyufu
+                yu8tiutuyygigyoouguigfyutiijhugig8oijiuig
+                <a href="#" class="link">leia mais</a>
+ 
+            <h2>notícia2</h2>
+            <p class="horario">00h00 / 01.01</p>
+            <p>texto aleatóriosuperdesinteressanteuefhhwoghuiggyufy
+                iffyukttfyufyugyugyufu
+                yu8tiutuyygigyoouguigfyutiijhugig8oijiuig
+                <a href="#" class="link">leia mais</a>
+            <h2>notícia3</h2>
+            <p class="horario">00h00 / 01.01</p>
+            <p>texto aleatóriosuperdesinteressanteuefhhwoghuiggyufy
+                iffyukttfyufyugyugyufu
+                yu8tiutuyygigyoouguigfyutiijhugig8oijiuig
+                <a href="#" class="link">leia mais</a>
+ 
+        </article>
+        <footer>
+            <p>rua pintopolis,123 - São Paulo. SP - 01234- 000 - 11 1234.5678</p>
+        </footer>
+    </aside>
+ 
+</body>
+ 
+</html>
