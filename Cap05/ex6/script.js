@@ -1,15 +1,19 @@
-const top8tn = document.getElementById('topBtn');
+// botão de voltar pro topo
+const topBtn = document.getElementById('topBtn');
 window.addEventListener('scroll', () => {
-    topBtn.style.display = window.scrollY > 400 ? 'bloke' : 'none';
-
+    topBtn.style.display = window.scrollY > 400 ? 'block' : 'none'
 });
-
+ 
 topBtn.addEventListener('click', () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-
-})
-
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+});
+ 
+//simulação de envio de formulário
 document.getElementById('form-contato').addEventListener('submit', (e) => {
     e.preventDefault();
-    alert('mensagem enviada com sucesso!');
-})
+    alert('Mensagem enviada com sucesso!')
+});
+ 
+ 
+ 
+ 
